@@ -1,4 +1,16 @@
 @include aoa-bg-series($bg__init,$classes_init);
+@media all and (orientation:portrait){
+    .about,.contact{
+        &-s1,&-s2{
+            background-position-x: center!important;
+        }
+    }
+    .index{
+        &-s1{
+            background-position-x: center!important;
+        }
+    }
+}
 
 .about{
     &-s3{
